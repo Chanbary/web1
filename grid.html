@@ -4,22 +4,27 @@
     <meta charset="utf-8">
     <title>GRID</title>
     <style>
-      div{
+      nav{
         border : 5px solid gray;
-
+      }
+      section{
+        border : 5px solid gray;
+      }
+      aside{
+        border : 5px solid gray;
       }
       #grid{
         border : 5px solid pink;
         display : grid;
-        grid-template-columns: 4fr 1fr;
+        grid-template-columns: 4fr 1fr 1fr;
       }
     </style>
   </head>
   <body>
     <div id="grid">
-      <div>Navigation</div>
-      <div>Article</div>
+      <nav><h2>Navigation</h2></nav>
+      <section><h2>Article</h2></section>
+      <aside><h2>TEST</h2></aside>
     </div>
-
   </body>
 </html>
